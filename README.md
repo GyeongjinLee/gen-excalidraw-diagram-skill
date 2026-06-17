@@ -61,4 +61,3 @@ excalidraw-diagram/
     render_template.html            # Browser template for rendering
     pyproject.toml                  # Python dependencies (playwright)
 ```
-# gen-exclidraw-diagram-skill
