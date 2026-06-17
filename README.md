@@ -17,7 +17,7 @@ Clone or download this repo, then copy it into your project's `.claude/skills/` 
 
 ```bash
 git clone https://github.com/GyeongjinLee/gen-exclidraw-diagram-skill.git
-cp -r excalidraw-diagram-skill .claude/skills/excalidraw-diagram
+cp -r gen-exclidraw-diagram-skill .claude/skills/excalidraw-diagram
 ```
 
 ## Setup
@@ -53,6 +53,9 @@ Edit `references/color-palette.md` to match your brand. Everything else in the s
 ```
 excalidraw-diagram/
   SKILL.md                          # Design methodology + workflow
+  SKILL.ko.md                       # Korean translation of SKILL.md
+  README.md                         # Setup and usage guide
+  README.ko.md                      # Korean translation of README.md
   references/
     color-palette.md                # Brand colors (edit this to customize)
     element-templates.md            # JSON templates for each element type

@@ -17,7 +17,7 @@
 
 ```bash
 git clone https://github.com/GyeongjinLee/gen-exclidraw-diagram-skill.git
-cp -r excalidraw-diagram-skill .claude/skills/excalidraw-diagram
+cp -r gen-exclidraw-diagram-skill .claude/skills/excalidraw-diagram
 ```
 
 ## 설정
@@ -53,6 +53,9 @@ uv run playwright install chromium
 ```
 excalidraw-diagram/
   SKILL.md                          # 디자인 방법론 + 워크플로우
+  SKILL.ko.md                       # SKILL.md 한글 번역
+  README.md                         # 설정 및 사용 가이드
+  README.ko.md                      # README.md 한글 번역
   references/
     color-palette.md                # 브랜드 색상 (커스터마이징하려면 이 파일을 편집)
     element-templates.md            # 각 요소 타입별 JSON 템플릿
