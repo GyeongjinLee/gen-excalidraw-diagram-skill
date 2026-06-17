@@ -16,8 +16,8 @@
 이 저장소를 클론하거나 다운로드한 후 프로젝트의 `.claude/skills/` 디렉토리에 복사합니다:
 
 ```bash
-git clone https://github.com/GyeongjinLee/gen-exclidraw-diagram-skill.git
-cp -r gen-exclidraw-diagram-skill .claude/skills/gen-exclidraw-diagram-skill
+git clone https://github.com/GyeongjinLee/gen-excalidraw-diagram-skill.git
+cp -r gen-excalidraw-diagram-skill .claude/skills/gen-excalidraw-diagram-skill
 ```
 
 ## 설정
@@ -31,7 +31,7 @@ cp -r gen-exclidraw-diagram-skill .claude/skills/gen-exclidraw-diagram-skill
 **옵션 B: 수동 설정**
 
 ```bash
-cd .claude/skills/gen-exclidraw-diagram-skill/references
+cd .claude/skills/gen-excalidraw-diagram-skill/references
 uv sync
 uv run playwright install chromium
 ```
@@ -51,7 +51,7 @@ uv run playwright install chromium
 ## 파일 구조
 
 ```
-gen-exclidraw-diagram-skill/
+gen-excalidraw-diagram-skill/
   SKILL.md                          # 디자인 방법론 + 워크플로우
   SKILL.ko.md                       # SKILL.md 한글 번역
   README.md                         # 설정 및 사용 가이드

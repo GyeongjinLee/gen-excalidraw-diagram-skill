@@ -17,6 +17,25 @@ To make this skill produce diagrams in your own brand style, edit `color-palette
 
 ---
 
+## File Structure
+
+```
+excalidraw-diagram/
+  SKILL.md                          # Design methodology + workflow
+  SKILL.ko.md                       # Korean translation of SKILL.md
+  README.md                         # Setup and usage guide
+  README.ko.md                      # Korean translation of README.md
+  references/
+    color-palette.md                # Brand colors (edit this to customize)
+    element-templates.md            # JSON templates for each element type
+    json-schema.md                  # Excalidraw JSON format reference
+    render_excalidraw.py            # Render .excalidraw to PNG
+    render_template.html            # Browser template for rendering
+    pyproject.toml                  # Python dependencies (playwright)
+```
+
+---
+
 ## Core Philosophy
 
 **Diagrams should ARGUE, not DISPLAY.**
