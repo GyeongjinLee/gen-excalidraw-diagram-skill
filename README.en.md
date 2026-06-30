@@ -46,6 +46,15 @@ Ask your coding agent to create a diagram:
 
 The skill handles the rest — concept mapping, layout, JSON generation, rendering, and visual validation.
 
+## Output
+
+The skill produces two files together:
+
+- **`.excalidraw` file** — an editable Excalidraw JSON file. Open it in [excalidraw.com](https://excalidraw.com) or the Excalidraw editor to fine-tune shapes, text, colors, and layout by hand.
+- **PNG file** — a rendered image written next to the `.excalidraw` file, ready to drop into docs or slides.
+
+If you're not happy with the result or want to change just part of it, edit the `.excalidraw` file directly or ask the agent to revise it — the agent re-renders to PNG to confirm the changes.
+
 ## Customize Colors
 
 Edit `references/color-palette.md` to match your brand. Everything else in the skill is universal design methodology.

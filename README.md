@@ -46,6 +46,15 @@ uv run playwright install chromium
 
 스킬이 나머지를 처리합니다 — 개념 매핑, 레이아웃, JSON 생성, 렌더링, 시각적 유효성 검사.
 
+## 결과물
+
+스킬은 두 가지 파일을 함께 생성합니다:
+
+- **`.excalidraw` 파일** — 편집 가능한 Excalidraw JSON 파일입니다. [excalidraw.com](https://excalidraw.com) 또는 Excalidraw 에디터에서 열어 도형, 텍스트, 색상, 배치 등을 직접 세부 수정할 수 있습니다.
+- **PNG 파일** — `.excalidraw` 파일 옆에 함께 출력되는 렌더링 이미지입니다. 문서나 슬라이드에 바로 삽입할 수 있습니다.
+
+다이어그램이 마음에 들지 않거나 일부만 바꾸고 싶다면 `.excalidraw` 파일을 직접 편집하거나, 에이전트에게 수정을 요청하세요. 에이전트는 수정 후 다시 PNG로 렌더링하여 결과를 확인합니다.
+
 ## 색상 커스터마이징
 
 `references/color-palette.md`를 편집하여 브랜드에 맞게 설정합니다. 스킬의 나머지 부분은 모두 범용 디자인 방법론입니다.
